@@ -23,7 +23,7 @@ To integrate DesignSystem into a Swift package, add it to the `dependencies` val
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/IvanPuzanov/DesignSystem.git", branch: "main")
+    .package(url: "https://github.com/IvanPuzanov/DesignSystem.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
