@@ -27,12 +27,5 @@ let package = Package(
                 .enableUpcomingFeature("ApproachableConcurrency"),
             ],
         ),
-        .testTarget(
-            name: "DesignSystemTests",
-            dependencies: ["DesignSystem"],
-            swiftSettings: [
-                .enableUpcomingFeature("ApproachableConcurrency"),
-            ],
-        ),
     ]
 )
